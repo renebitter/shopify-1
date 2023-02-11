@@ -1,3 +1,82 @@
-.shopify-section.shopify-section-group-header-group.announcement-bar-section.announcement-bar__message {
+/* HEADER */
+
+.announcement-bar__message {
   color: #ffffff;
 }
+
+header.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* header.header.page-width {
+  max-width: 1920px;
+} */
+
+header-drawer {
+  order: 4;
+}
+
+.header__search {
+  /* Change liquid? */
+  display: none !important;
+}
+
+@media screen and (min-width: 990px) {
+  .header--middle-left {
+    grid-template-columns: 1fr auto 1fr;
+  }
+}
+
+.cart-count-bubble {
+  top: 0rem;
+  bottom: unset;
+}
+
+/* HEADER END */
+
+/* PRODUCT INFO */
+
+.product {
+  align-items: center;
+}
+
+product-info.product__info-container {
+  /* Layout Properties */
+  display: block;
+  padding: 25px;
+  /* width: 475px;
+  height: 275px; */
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+product-info.product__info-container .product__text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+product-info.product__info-container .product__title h1 {
+  font-size: 18px;
+}
+
+product-info.product__info-container .price-item {
+  font-size: 18px;
+  font-weight: bold;
+}
+product-info.product__info-container .price-item--sale {
+  color: #1f47ff;
+}
+
+product-info.product__info-container .product__inventory {
+  font-size: 15px;
+  color: #25a525;
+}
+product-info.product__info-container .product-form__buttons {
+  max-width: unset;
+}
+
