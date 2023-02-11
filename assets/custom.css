@@ -9,6 +9,10 @@ header.header {
   justify-content: space-between;
 }
 
+/* header.header.page-width {
+  max-width: 1920px;
+} */
+
 header-drawer {
   order: 4;
 }
@@ -22,6 +26,11 @@ header-drawer {
   .header--middle-left {
     grid-template-columns: 1fr auto 1fr;
   }
+}
+
+.cart-count-bubble {
+  top: 0rem;
+  bottom: unset;
 }
 
 /* HEADER END */
