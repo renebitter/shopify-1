@@ -72,6 +72,11 @@ product-info.product__info-container .price-item--sale {
   color: #1f47ff;
 }
 
+product-info.product__info-container .product__tax {
+  vertical-align: unset;
+  margin-left: 6px;
+}
+
 product-info.product__info-container .product__inventory {
   font-size: 15px;
   color: #25a525;
@@ -79,4 +84,3 @@ product-info.product__info-container .product__inventory {
 product-info.product__info-container .product-form__buttons {
   max-width: unset;
 }
-
