@@ -17,6 +17,12 @@ header-drawer {
   order: 4;
 }
 
+header .menu-drawer {
+  left: unset;
+  right: 0;
+  transform: translateX(100%);
+}
+
 .header__search {
   /* Change liquid? */
   display: none !important;
