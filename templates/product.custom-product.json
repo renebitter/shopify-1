@@ -20,13 +20,6 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "7e0407bb-eb34-4847-8c42-e1e53a51dc0d": {
           "type": "inventory",
           "settings": {
@@ -46,7 +39,6 @@
         "vendor",
         "title",
         "price",
-        "variant_picker",
         "7e0407bb-eb34-4847-8c42-e1e53a51dc0d",
         "buy_buttons"
       ],
