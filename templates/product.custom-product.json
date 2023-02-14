@@ -63,7 +63,7 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-neoric_360x_e427aa62-a38f-49eb-944f-4e5ae2625898.png",
+            "image": "shopify:\/\/shop_images\/certificate.jpg",
             "title": "100% Qualität",
             "text": "<p>Dank weichem Silikon<\/p>",
             "link_label": "",
@@ -130,21 +130,11 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "5490fe32-b65a-4283-ae30-1e3cd487d2b5": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div><h1>test<\/h1><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "related-products",
-    "5490fe32-b65a-4283-ae30-1e3cd487d2b5"
+    "related-products"
   ]
 }
