@@ -127,11 +127,21 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "5490fe32-b65a-4283-ae30-1e3cd487d2b5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div><h1>test<\/h1><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "5490fe32-b65a-4283-ae30-1e3cd487d2b5"
   ]
 }
