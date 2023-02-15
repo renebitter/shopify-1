@@ -297,7 +297,7 @@ product-info.product__info-container .product__inventory {
     margin: 0;
   }
 
-  .product__media.media {
+  modal-opener.product__modal-opener.product__modal-opener--image {
     max-width: 480px;
     max-height: 480px;
     margin-left: auto;
@@ -324,10 +324,12 @@ product-info.product__info-container .product__inventory {
   }
 }
 
-/* TEMP! */
-.slider-button.slider-button--prev,
-.slider-button.slider-button--next {
-  display: none !important;
+.slider-buttons.slider-buttons-desktop {
+  display: flex !important;
+  width: 100%;
+}
+.slider-buttons.slider-buttons-desktop .slider-button .icon {
+  height: 10px;
 }
 
 /* CAROUSEL END */
