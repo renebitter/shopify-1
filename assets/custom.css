@@ -148,7 +148,6 @@ product-info.product__info-container .product__inventory {
   product-info.product__info-container {
     padding: 18px 23px 25px 28px;
     max-width: 475px;
-    max-height: 275px;
   }
 
   product-info.product__info-container .product__text {
@@ -333,3 +332,120 @@ product-info.product__info-container .product__inventory {
 }
 
 /* CAROUSEL END */
+
+/* SWIPER */
+
+.swiper-container {
+  display: flex;
+}
+
+.thumbSwiper {
+  display: none !important;
+}
+
+.mainSwiper {
+  max-width: 500px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+/* Mitigate window resize bug at 850px */
+.mainSwiper .swiper-slide {
+  width: 100% !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: inherit !important;
+  bottom: 0 !important;
+}
+
+.mainSwiper .swiper-slide img {
+  border-radius: 5px;
+}
+
+.mainSwiper .swiper-pagination-bullet {
+  background: #f8f8f8;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #e5e5e5;
+}
+
+@media screen and (min-width: 990px) {
+  .thumbSwiper {
+    justify-content: center;
+    display: flex !important;
+    align-self: center;
+    max-height: 445px;
+    max-width: 120px;
+    margin-right: 20px;
+  }
+
+  .thumbSwiper .swiper-wrapper {
+    flex-direction: column;
+  }
+
+  .thumbSwiper .swiper-slide {
+    height: 100px !important;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  .thumbSwiper .swiper-slide img {
+    border-radius: 3px;
+  }
+
+  .swiper-navigation {
+    display: flex;
+    height: 23px;
+    padding-left: 120px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .swiper-navigation div:empty {
+    display: block;
+  }
+
+  .swiper-navigation .swiper-button-next,
+  .swiper-navigation .swiper-button-prev {
+    position: inherit;
+    color: #000000 !important;
+  }
+
+  .swiper-navigation .swiper-button-next:after,
+  .swiper-navigation .swiper-button-prev:after {
+    font-weight: bold;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+}
+/* SWIPER END */
