@@ -354,6 +354,7 @@ product-info.product__info-container .product__inventory {
 /* Mitigate window resize bug at 850px */
 .mainSwiper .swiper-slide {
   width: 100% !important;
+  cursor: grab;
 }
 
 .swiper {
@@ -403,6 +404,7 @@ product-info.product__info-container .product__inventory {
     max-height: 445px;
     max-width: 120px;
     margin-right: 20px;
+    cursor: grab;
   }
 
   .thumbSwiper .swiper-wrapper {
@@ -413,6 +415,7 @@ product-info.product__info-container .product__inventory {
     height: 100px !important;
     width: 100px;
     margin-bottom: 15px;
+    cursor: pointer;
   }
 
   .thumbSwiper .swiper-slide img {

@@ -338,14 +338,12 @@
   window.onload = function () {
     var swiper = new Swiper('.thumbSwiper', {
       direction: 'vertical',
-      loop: true,
       spaceBetween: 15,
       slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
     });
     var swiper2 = new Swiper('.mainSwiper', {
-      {% comment %} loop: true, {% endcomment %}
       spaceBetween: 5,
       navigation: {
         nextEl: '.swiper-button-next',
